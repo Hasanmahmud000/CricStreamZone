@@ -1,6 +1,6 @@
 self.addEventListener("install", e => {
   e.waitUntil(
-    caches.open("BDStreamHub-cache").then(cache => {
+    caches.open("CricStreamZone-cache").then(cache => {
       return cache.addAll([
         "./",
         "./index.html",
